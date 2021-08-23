@@ -1,0 +1,36 @@
+.body-color{
+    background-color: #F8F8F8;
+}
+.container{
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.web{
+    font-size: 32px;
+    color: #3D37F1;
+    margin-left: 132px;
+    margin-top: 37px;
+}
+.span_title{
+    color: #4B647E;
+
+}
+.nav{display: flex;
+    justify-content: space-evenly;
+
+}
+.nav{
+    display: flex;
+    justify-self: space-evenly;
+}
+.nav-li{
+    font-size: 22px;
+    color: #3D37F1;
+    margin: 50px;
+ }
+.nav:nth-child(1){
+    margin-left:725px;
+}
