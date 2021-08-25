@@ -148,6 +148,8 @@ header-fix{
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    transition-property: all;   
+    transition-duration: 2s;  
 }
 .child-box2{
     width: 370px;
@@ -164,6 +166,8 @@ header-fix{
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    transition-property: all;   
+    transition-duration: 2s;    
 }
 
 .child-box:nth-child(2){
@@ -235,4 +239,13 @@ background-color: #A5A2F6;
 }
 .with-read-more{
     color: white;
+}
+.child-box :hover{
+    background-color: violet;
+
+}
+.child-box2:hover{
+    background-color: yellowgreen;
+    
+
 }
